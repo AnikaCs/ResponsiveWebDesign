@@ -28,174 +28,123 @@
         padding-left:5%;
        
          }
+
  /* starting of part one */
 
 		#PartOne{
 
 			background-image: url("images/group1.jpg");
 			background-repeat: no-repeat;
-          
-             background-size:100% 100%;
-              object-fit:cover;
-          
-
-
-           
-           
-            padding-top: 30px;
+            background-size:100% 100%;
+           object-fit:cover;
+           padding-top: 30px;
            min-height: 100%;
            padding-top: 1%;
            padding-bottom: 25%;
            padding-right: 20px;
-           
-
-            
-
-			
-		}
+           	}
 		#header{
 
 			display: flex;
-			
-			
 			justify-content: space-between;
 
 			
 		}
+
 		a{
 			color:white;
 			text-decoration: none;
 		}
+
 		.logo{
 
              width:30%;
-            
+            }
 
-
-            
-
-		}
 		.logo a{
 			padding-left: 20px;
 		}
+
 		.navigation-link  {
 			display: flex;
 			text-align: left;
              width:70%;
-			
-		
-
-			
-
-		}
+			}
 
         .navigation-link  a{
-
-        	font-size:1.2vw ;
-
+            font-size:1.2vw ;
             padding-left: 1%;
             margin-left: auto;
             font-weight: bold;
-        	
+        	}
 
-        }
         .content {
         	display: flex;
         	justify-content: center;
-        	
+        	}
 
-        	
-        }
         .content::before{
-
-        	content: "";
+            content: "";
         	width: 40%;
 
         }
+
         .main-content{
-        	
         	text-align: left;
         	padding-left: 2%;
         	width:60%;
         	display: grid;
             padding-top: 10%;
         }
-        .main-content h1{
 
-        	margin: 0px;
+        .main-content h1{
+            margin: 0px;
         	padding: 0px;
         	color: #FFC300 ;
-        	
-        
-        	
+        	}
 
-        	
-        	
-		}
 	   .main-content p{
-
-
-        	color: #ffffff ;
+            color: #ffffff ;
         	text-align: justify;
         	width: 70%;
         	margin: 0px;
         	padding: 0px;
-        	
-		}
+        	}
 		
 		.main-content button{
-
-			width: 100px;
+            width: 100px;
 			height: 30px;
-
-			
-			margin-top: 5vh;
-			
+            margin-top: 5vh;
 			background-color:  #FFC300;
 			border: none;
-
-		}
+        }
 		/* end of part one */
 
         /* start of part two */
 
         #PartTwo{
-
-
               display: grid;
               text-align: center;
               padding-top: 20px;
               padding-bottom: 20px; 
+          }
 
-             
-             
-              
-            
-        }
         .foodCard{
-           
             display: flex;
             justify-content: center;
             gap: 10px;
-          
-         
-          
-            
+          }
 
-        }
         #PartTwo img{
            height: 200px;
            width:200px;
            object-fit: cover;
         }
+
         .foodCard p{
+                 text-align: center;
+           }
 
-            text-align: center;
-           
-         
-           
-
-        }
         /* part two end */
          /* part three starts */
 
@@ -206,68 +155,49 @@
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: 100% 100%;
+                text-align: center;
+                padding-bottom: 10%;
+              }
 
-               text-align: center;
-               padding-bottom: 10%;
-              
-               
-             
-              
-
-
-            }
              #PartThree img{
                 height: 300px;
-                weidth:300px;
+                width:300px;
              }
-            .menueWithDescription{
 
+            .menueWithDescription{
                 display: flex;
                 justify-content: center;
                 gap:5%;
-                
+                align-items: flex-end;
+                }
 
-            }
              .menueWithDescription h2{
-
-                color: #FFC300 ;
-              
-             }
+                    color: #FFC300 ;
+              }
 
          
             .foodImage{
-                width: 300px;
+                 width: 300px;
                  height: 300px;
             }
 
             .description{
-
-               
                 text-align: left;
                 padding-top: 10%;
-                
-               
+                }
 
-
-
-            }
               .description h2{
                 margin-bottom: 0px;
-
-
-              }
+                }
 
            
             .description button{
-
             width: 100px;
             height: 30px; 
             background-color:#FFC300;
             border: none;
-
-            
-           
              }
+
              #variousStatics{
                 display: flex;
                 justify-content: space-evenly;
@@ -279,38 +209,25 @@
                 padding-bottom: 10%;
 
              }
-             .statisticsCatagory{
-               
-                border-radius:50%;
-                width: 10vw;
-                height: 10vw;
+                 .statisticsCatagory{
+                    border-radius:50%;
+                    width: 10vw;
+                    height: 10vw;
+                    border:2px solid white;
+                    text-align: center;
+                   }
 
-                border:2px solid white;
-                
-               
-                text-align: center;
-               
-                
-
-             }
               .statisticsCatagory h3{
-
                 color: #FFC300;
                 font-size: 2vw;
                 margin-bottom: 0px;
-               
-                
-            
-                
-              }
+               }
+
            .statisticsCatagory h4{
-             
-               
-               font-size: 1.2vw;
+                font-size: 1.2vw;
                 margin-top: 0px;
+            }
 
-
-           }
              /* part three ends */
                /* part four starts */
               
@@ -321,53 +238,41 @@
                         background-repeat: no-repeat;
                         background-position: center center;
                         background-size:100% 100%;
-                       
-                        background-color:black;
+                       background-color:black;
+                   }
 
-
-              }
-              .quotes
-              {
+              .quotes{
                  padding: 20% 10%;
                 background-color:rgba(255,195,0,0.8);
                 color: #343434;
                 letter-spacing: 0.1rem;
                 word-spacing: 0.3rem;
+               }
 
-              }
                /* part four ends */
                 /* part five starts */
              
               .quotes p{
-
-                font-size: 2vw;
+                     font-size: 2vw;
               }
 
               /* part four ends */
                /* part five starts */
 
              #PartFive{
-                   
-                    padding: 20% 5%;
-                    
-                   
-                   text-align: center;
-                   
-                   background-image:url("images/back.jpg");
-                   background-repeat: no-repeat;
-                   background-position: center center;
-                   background-size:100% 100%;
-                
-                 
-                  
-
-             }
+                       padding: 20% 5%;
+                      text-align: center;
+                      background-image:url("images/back.jpg");
+                      background-repeat: no-repeat;
+                      background-position: center center;
+                     background-size:100% 100%;
+                 }
 
             
              #PartFive button{
                 width: 100px;
                 height: 30px;
-               background-color:  #FFC300;
+               background-color:#FFC300;
                border: none;
              }
 
@@ -381,10 +286,10 @@
                      display: flex;
                      justify-content: space-evenly;
                      gap: 5%;
-                     
                      text-align: left;
                      padding: 10% 5%;
              }
+
              .PartSixCatagory{
                 display: grid;
              }
